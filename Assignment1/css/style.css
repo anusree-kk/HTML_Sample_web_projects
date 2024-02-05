@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    background: no-repeat center ;
+    background-size: cover;
+    width: 100%;
+}
+.navigation_icons{
+    text-align: right;
+}
+.navigation_icons_left {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation_icons_left li {
+    padding: 8px 20px;
+}
+.navigation_icons_left li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #10c4fb;
+}
+.heading1{
+    background-color: rgb(158, 175, 120);
+    color:rgb(128, 17, 17);
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    font-weight: 600;
+}
+.heading2{
+    background-color: #d1dce0;
+    text-align:center ;
+}
+.div1{
+    background-color: rgb(244, 165, 165);
+    margin-bottom: 50px;
+    height: 50px;
+}
+.div2{
+    background-color: rgb(150, 231, 242);
+    height: 50px;
+}
+.div3{
+    background-color: rgb(168, 245, 195);
+    height: 50px;
+}
+.div4{
+    background-color: rgb(249, 181, 231);
+    height: 50px;
+}
+.div5{
+    background-color: rgb(232, 235, 168);
+    height: 50px;
+}
+.main{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div5{
+    text-align: center;
+}
+div .div1,.div2,.div3,.div4,.div5{
+    font-size: 20px;
+}
+.div5~p{
+    text-align: center;
+    color: aqua;
+}
+a{
+    text-decoration: overline;
+}
+a:visited{
+    color: rgb(176, 254, 175);
+}
+a:active{
+    color: rgb(253, 253, 90);
+}
+.background{
+    background-image: linear-gradient(to right,red,green);
+    width: 100px;
+    height: 45px;
+    margin-left: 47%;
+    position: fixed;
+}
+.image1 {
+    width: 10%;
+    position: absolute;
+    right: 5px;
+    /* visibility: hidden; */
+}
+/* .image2{
+    width: 50%;
+    display: none;
+} */
+.paragraph1_image{
+    width: 50%;
+}
+.paragraph1_image img{
+    width: 50%;
+    /* background-attachment: fixed; */
+}
+.text_content{
+    border: 2px solid beige;
+    margin: 20px 230px 20px;
+    padding: 0 6px;
+}
+.text_content>.text_content_text{
+    color: coral;
+    text-align: center;
+}
+.text_content_text+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#overflow_content{
+    text-align: center;
+    margin: auto;
+    /* margin-left: 10%; */
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image-source: url("image/teacher3.jpg");
+}
+
+.overflow_content > p{
+    width: 110%;
+    color:white ;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* overflow-y: hidden; */
+}
+.div.overflow_content{
+    color: greenyellow;
+}
+.d {
+    border-radius: 16px 65px 69px 5px;
+    border: 2px solid blue;
+    padding: 20px;
+    height: 84px;
+    width: 90px;
+    margin: 60px;
+}
